@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 4px 4px 5px white;
+}
+
+#myform{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(47, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myform>article{
+    height: 400px;
+    width: 400px;
+    /* background-color: aliceblue; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 35px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#myform>article>h2{
+    margin-bottom: 20px;
+    color: rgb(176, 249, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#myform>article>label{
+    color: rgb(247, 125, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+#myform>article>input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(8, 205, 235);
+}
+
+#myform>article>input:focus{
+    outline: none;
+}
+
+#myform>article>button{
+    height: 30px;
+    width: 110px;
+    border: none;
+    background-color: rgb(228, 14, 14);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px black;
+    margin-top: 20px;
+}
+
+#myform>article>button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgb(19, 15, 19);
+}
+
+#usersHome{
+    height: 90vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#cards{
+    height: 180px;
+    width: 180px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 35px whitesmoke;
+
+}
+/* #cards>table>tr td,th{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} */

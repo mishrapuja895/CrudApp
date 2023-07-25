@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "patel",
+      "sal": "87867875686878",
+      "Company": "google",
+      "id": 2
+    },
+    {
+      "name": "Abhishek kumar",
+      "sal": "87890",
+      "Company": "Google",
+      "id": 3
+    },
+    {
+      "name": "Samara",
+      "sal": "3435454545",
+      "Company": "hsj",
+      "id": 5
+    },
+    {
+      "name": "Manju",
+      "sal": "898987979",
+      "Company": "jjjyrh",
+      "id": 6
+    },
+    {
+      "name": "Rohan",
+      "sal": "543556",
+      "Company": "rgs",
+      "id": 8
+    },
+    {
+      "name": "Shruti",
+      "sal": "8788878687",
+      "Company": "My Heart",
+      "id": 9
+    },
+    {
+      "name": "Abh",
+      "sal": "87",
+      "Company": "d",
+      "id": 10
+    }
+  ]
+}
